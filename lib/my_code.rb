@@ -70,7 +70,7 @@ def reduce_to_all_true(source_array)
     end
     index += 1
   end
-return
+  return
 end
 
 
