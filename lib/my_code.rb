@@ -67,6 +67,8 @@ def reduce_to_all_true(source_array)
 
     if source_array[index] == false
       puts "I've found a false value"
+    else
+      puts "This isn't false"
     end
     index += 1
   end
