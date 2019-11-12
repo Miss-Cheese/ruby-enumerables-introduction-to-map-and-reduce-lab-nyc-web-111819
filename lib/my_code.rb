@@ -64,13 +64,14 @@ def reduce_to_all_true(source_array)
 
   index = 0
   while index < source_array.count do
-    if source_array[index]
-      return true
-    else
-      return false
+
+    if source_array[index] == false
+      puts "I've found a false value"
+      
     end
     index += 1
   end
+
 end
 
 
